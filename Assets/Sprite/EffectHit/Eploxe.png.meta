@@ -1,0 +1,545 @@
+fileFormatVersion: 2
+guid: b92f8e48cc58eb948bd07b77839dacc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6945192493723898887
+    second: Eploxe_0
+  - first:
+      213: -4518393027304614065
+    second: Eploxe_1
+  - first:
+      213: -2259254468875403925
+    second: Eploxe_2
+  - first:
+      213: 7656367122638268256
+    second: Eploxe_3
+  - first:
+      213: 3253446898059568493
+    second: Eploxe_4
+  - first:
+      213: -2727845086382418686
+    second: Eploxe_5
+  - first:
+      213: 5388487531102773215
+    second: Eploxe_6
+  - first:
+      213: 7854180316306399046
+    second: Eploxe_7
+  - first:
+      213: 480699475151309266
+    second: Eploxe_8
+  - first:
+      213: 1963636790000819827
+    second: Eploxe_9
+  - first:
+      213: 7892872312836546369
+    second: Eploxe_10
+  - first:
+      213: -729412797476284985
+    second: Eploxe_11
+  - first:
+      213: 4367850641516014867
+    second: Eploxe_12
+  - first:
+      213: 4938963291350113650
+    second: Eploxe_13
+  - first:
+      213: 4847234824963925182
+    second: Eploxe_14
+  - first:
+      213: -3960458529594349257
+    second: Eploxe_15
+  - first:
+      213: -411581993547215889
+    second: Eploxe_16
+  - first:
+      213: 1396622338971822760
+    second: Eploxe_17
+  - first:
+      213: 6391598340908436229
+    second: Eploxe_18
+  - first:
+      213: 201069812339228925
+    second: Eploxe_19
+  - first:
+      213: -2460325149309585504
+    second: Eploxe_20
+  - first:
+      213: -1374941150251480896
+    second: Eploxe_21
+  - first:
+      213: 1502785366650837325
+    second: Eploxe_22
+  - first:
+      213: -8034157749277627231
+    second: Eploxe_23
+  - first:
+      213: -6351053064076480965
+    second: Eploxe_24
+  - first:
+      213: 6773927200331870685
+    second: Eploxe_25
+  - first:
+      213: 1538418572161690453
+    second: Eploxe_26
+  - first:
+      213: -7932352748717258041
+    second: Eploxe_27
+  - first:
+      213: -7083980999637038417
+    second: Eploxe_28
+  - first:
+      213: -348865949874210798
+    second: Eploxe_29
+  - first:
+      213: -3783421839780950163
+    second: Eploxe_30
+  - first:
+      213: -6899286441611894925
+    second: Eploxe_31
+  - first:
+      213: -7128289191500871268
+    second: Eploxe_32
+  - first:
+      213: 4601788128094541161
+    second: Eploxe_33
+  - first:
+      213: -5517455315645078766
+    second: Eploxe_34
+  - first:
+      213: -4780727442140533201
+    second: Eploxe_35
+  - first:
+      213: 3977667403313598971
+    second: Eploxe_36
+  - first:
+      213: -1981547916798922612
+    second: Eploxe_37
+  - first:
+      213: 4347610364461298911
+    second: Eploxe_38
+  - first:
+      213: -3307126486523090974
+    second: Eploxe_39
+  - first:
+      213: -7089194280990415572
+    second: Eploxe_40
+  - first:
+      213: 7609516552402635135
+    second: Eploxe_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Eploxe_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 366
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4718eb2b717b41c0800000000000000
+      internalID: -4518393027304614065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eploxe_3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 366
+        width: 98
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65ef6e57b0962d20800000000000000
+      internalID: 3253446898059568493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eploxe_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 365
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf90003cd0c7ca40800000000000000
+      internalID: 5388487531102773215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eploxe_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 377
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fde4b6267affc60800000000000000
+      internalID: 7854180316306399046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eploxe_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 212
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa6acf1e9cc16310800000000000000
+      internalID: 1396622338971822760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eploxe_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 213
+        width: 95
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bc2d0b3d483b850800000000000000
+      internalID: 6391598340908436229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eploxe_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 213
+        width: 108
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0c883dde75ac200800000000000000
+      internalID: 201069812339228925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eploxe_7
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 213
+        width: 94
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a73173ef4b2bddd0800000000000000
+      internalID: -2460325149309585504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eploxe_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 59
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fc664d1e59e7bc0800000000000000
+      internalID: -3783421839780950163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eploxe_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 59
+        width: 96
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9985546fba331d90800000000000000
+      internalID: -7128289191500871268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eploxe_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 59
+        width: 97
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9655fa2dbe5dcdf30800000000000000
+      internalID: 4601788128094541161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eploxe_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 59
+        width: 86
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21362e68f9f0e63b0800000000000000
+      internalID: -5517455315645078766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b30079688d85cbd49925223f15612075
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Eploxe_0: 7854180316306399046
+      Eploxe_1: 5388487531102773215
+      Eploxe_10: 4601788128094541161
+      Eploxe_11: -5517455315645078766
+      Eploxe_2: -4518393027304614065
+      Eploxe_3: 3253446898059568493
+      Eploxe_4: 1396622338971822760
+      Eploxe_5: 6391598340908436229
+      Eploxe_6: 201069812339228925
+      Eploxe_7: -2460325149309585504
+      Eploxe_8: -3783421839780950163
+      Eploxe_9: -7128289191500871268
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
