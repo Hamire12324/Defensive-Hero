@@ -12,7 +12,7 @@ public class EnemyPathAndMove : PathFinder
     protected override void OnEnable()
     {
         base.OnEnable();
-        SetMoveSpeed(currentSpeed);
+        SetMoveSpeed(originalSpeed);
         savedOriginalSpeed = currentSpeed;
     }
 

@@ -5,6 +5,7 @@ public class HeroPlacer : MinhMonoBehaviour
 {
     [SerializeField] private int cost = 100;
     [SerializeField] protected Transform heroListButton;
+    private bool isHeroListVisible = false;
     protected override void LoadComponents()
     {
         base.LoadComponents();
@@ -17,9 +18,10 @@ public class HeroPlacer : MinhMonoBehaviour
     }
     public void ShowHeroListUI()
     {
-        foreach(Transform t in heroListButton)
+        isHeroListVisible = !isHeroListVisible;
+        foreach (Transform t in heroListButton)
         {
-            t.gameObject.SetActive(true);
+            t.gameObject.SetActive(isHeroListVisible);
         }
     }
     public void SelectAndPlaceHero(int index)
