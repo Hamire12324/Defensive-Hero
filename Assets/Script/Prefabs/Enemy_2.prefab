@@ -273,8 +273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f66b243e972c0a4c91b49abeb88ba38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHp: 100
-  hpMax: 100
+  currentHp: 160
+  hpMax: 160
   isDead: 0
   objectCtrl: {fileID: 3111009468598060485}
   enemyCtrl: {fileID: 0}

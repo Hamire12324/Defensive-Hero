@@ -36,7 +36,7 @@ public class GoldUI : MinhMonoBehaviour
     {
         if (goldText != null && goldData != null)
         {
-            goldText.text = goldData.gold.ToString();
+            goldText.text = goldData.goldCurrent.ToString();
         }
     }
 }

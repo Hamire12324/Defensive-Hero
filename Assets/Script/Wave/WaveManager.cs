@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class WaveManager : MinhMonoBehaviour
 {
@@ -11,6 +12,13 @@ public class WaveManager : MinhMonoBehaviour
     private int currentWaveIndex = 0;
     private bool playerRequestedNextWave = false;
     private bool isWaitingForNextWave = false;
+    public static WaveManager Instance { get; private set; }
+    protected override void Awake()
+    {
+        base.Awake();
+        Instance = this;
+    }
+
 
     protected override void Start()
     {
@@ -46,7 +54,9 @@ public class WaveManager : MinhMonoBehaviour
     private IEnumerator HandleWave()
     {
         if (currentWaveIndex >= waveConfigs.Count)
+        {
             yield break;
+        }
 
         WaveConfigSO currentWave = waveConfigs[currentWaveIndex];
         waveUIManager.UpdateWaveText("Wave " + (currentWaveIndex + 1) + "/" + waveConfigs.Count);
@@ -71,5 +81,9 @@ public class WaveManager : MinhMonoBehaviour
         waveUIManager.ClearCountdown();
         waveUIManager.ShowStartWaveButton(false);
         StartCoroutine(HandleWave());
+    }
+    public bool IsLastWave()
+    {
+        return currentWaveIndex >= waveConfigs.Count;
     }
 }

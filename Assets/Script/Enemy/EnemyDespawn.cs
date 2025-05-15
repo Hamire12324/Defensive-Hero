@@ -17,6 +17,13 @@ public class EnemyDespawn : DespawnByDistance
     public override void DespawnObject()
     {
         EnemySpawner.Instance.Despawn(transform.parent);
+        if (GameObject.FindGameObjectsWithTag("Enemy").Length <= 1)
+        {
+            if (WaveManager.Instance.IsLastWave())
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Victory");
+            }
+        }
         GoleManager.Instance.AddGold(50);
         GoldUI.Instance.UpdateGoldUI();
     }

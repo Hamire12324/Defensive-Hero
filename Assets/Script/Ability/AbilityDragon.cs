@@ -3,7 +3,7 @@ using UnityEngine;
 public class AbilityDragon: MinhMonoBehaviour
 {
     [SerializeField] private SilenceSkill silenceSkill;
-    [SerializeField] private float castInterval = 1f;
+    [SerializeField] private float castInterval = 5f;
     private float castTimer = 0f;
 
     protected override void LoadComponents()

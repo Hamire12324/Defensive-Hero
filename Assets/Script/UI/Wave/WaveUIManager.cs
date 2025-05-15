@@ -4,7 +4,7 @@ public class WaveUIManager : MinhMonoBehaviour
 {
     [SerializeField] private SkipWaveUI skipWaveUI;
     [SerializeField] private WaveInfoUI waveInfoUI;
-
+    [SerializeField] private WaveManager waveManager;
     protected override void LoadComponents()
     {
         base.LoadComponents();
@@ -28,8 +28,8 @@ public class WaveUIManager : MinhMonoBehaviour
 
     public void ShowStartWaveButton(bool show)
     {
-        if (skipWaveUI != null)
-            skipWaveUI.ShowSkipButton(show);
+        if (WaveManager.Instance != null && WaveManager.Instance.IsLastWave()) return;
+        skipWaveUI.ShowSkipButton(show);
     }
 
     public void UpdateWaveText(string text)

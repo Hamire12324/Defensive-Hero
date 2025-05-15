@@ -36,8 +36,8 @@ public class Attack : MinhMonoBehaviour
             double bonus = dameBonus;
             double totalDamage = baseDamage + bonus;
             dmgSender.SetDamage(totalDamage);
-
             Debug.Log($"Spawn Bullet with Damage = {baseDamage} + {bonus} = {totalDamage}");
+            dameBonus = 0; ;
         }
 
         newBullet.gameObject.SetActive(true);

@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24eaa7e2d4abda4f8f3702d72c6a8f5, type: 3}
   m_Name: GoldManager
   m_EditorClassIdentifier: 
-  gold: 3350
+  goldBase: 200
+  goldCurrent: 200

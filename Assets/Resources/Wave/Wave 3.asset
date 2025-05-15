@@ -19,6 +19,10 @@ MonoBehaviour:
   - {fileID: 276066725826921179, guid: d19116d6ae5a23f49a0471da4de1fef8, type: 3}
   - {fileID: 276066725826921179, guid: d19116d6ae5a23f49a0471da4de1fef8, type: 3}
   - {fileID: 276066725826921179, guid: d19116d6ae5a23f49a0471da4de1fef8, type: 3}
-  pathPrefab: {fileID: 213245020240937571, guid: c7e530bba3ba97341bdd0c5f7b7614c5, type: 3}
-  timeBetweenEnemySpawns: 1
+  - {fileID: 276066725826921179, guid: d19116d6ae5a23f49a0471da4de1fef8, type: 3}
+  - {fileID: 276066725826921179, guid: d19116d6ae5a23f49a0471da4de1fef8, type: 3}
+  - {fileID: 276066725826921179, guid: d19116d6ae5a23f49a0471da4de1fef8, type: 3}
+  - {fileID: 276066725826921179, guid: d19116d6ae5a23f49a0471da4de1fef8, type: 3}
+  pathPrefab: {fileID: 2106703094396927403, guid: 85622165d0d33ca4a916af1c62c2c819, type: 3}
+  timeBetweenEnemySpawns: 2
   waveInterval: 5

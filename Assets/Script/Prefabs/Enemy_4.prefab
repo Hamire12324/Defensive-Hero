@@ -50,11 +50,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   model: {fileID: 6398458911899395672}
   despawn: {fileID: 6292400996586392151}
-  objectSO: {fileID: 11400000, guid: be8d15e99908a13468462b261821abdd, type: 2}
+  objectSO: {fileID: 0}
   spawner: {fileID: 0}
   damageReceiver: {fileID: 3041704648211278766}
   hpBar: {fileID: 0}
-  enemyPathAndMove: {fileID: 0}
+  enemyPathAndMove: {fileID: 1807822018717962383}
   enemyDespawn: {fileID: 6292400996586392151}
 --- !u!1 &1214969032953894031
 GameObject:
@@ -149,8 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f66b243e972c0a4c91b49abeb88ba38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHp: 100
-  hpMax: 100
+  currentHp: 220
+  hpMax: 220
   isDead: 0
   objectCtrl: {fileID: 1544038915989860762}
   enemyCtrl: {fileID: 0}

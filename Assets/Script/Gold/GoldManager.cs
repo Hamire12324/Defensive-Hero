@@ -9,8 +9,13 @@ public class GoleManager : MinhMonoBehaviour
     protected override void Awake()
     {
         base.Awake();
-        if(GoleManager.instance != null) Debug.LogError("Only 1 GoldManager allow to exist");
+        goldData.Reset();
+        if (GoleManager.instance != null) Debug.LogError("Only 1 GoldManager allow to exist");
         GoleManager.instance = this;
+    }
+    protected override void Start()
+    {
+        base.Start();
     }
     protected override void LoadComponents()
     {
@@ -26,16 +31,16 @@ public class GoleManager : MinhMonoBehaviour
     }
     public void AddGold(int amount)
     {
-        goldData.gold += amount;
-        Debug.Log("AddGold: " + amount + " → Sum: " + goldData.gold);
+        goldData.goldCurrent += amount;
+        Debug.Log("AddGold: " + amount + " → Sum: " + goldData.goldCurrent);
     }
 
     public bool SpendGold(int amount)
     {
-        if (goldData.gold >= amount)
+        if (goldData.goldCurrent >= amount)
         {
-            goldData.gold -= amount;
-            Debug.Log("Deduct: " + amount + " → remain: " + goldData.gold);
+            goldData.goldCurrent -= amount;
+            Debug.Log("Deduct: " + amount + " → remain: " + goldData.goldCurrent);
             return true;
         }
         else

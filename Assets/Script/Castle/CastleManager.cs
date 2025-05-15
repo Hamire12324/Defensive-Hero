@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CaslteManager : MinhMonoBehaviour
 {
@@ -8,9 +9,13 @@ public class CaslteManager : MinhMonoBehaviour
     public CastleData castleData;
     protected override void Awake()
     {
-        base.Awake();
+        base.Awake(); 
+        castleData.Reset();
         if (CaslteManager.instance != null) Debug.LogError("Only 1 CastleManager allow to exist");
         CaslteManager.instance = this;
+    }
+    protected override void Start()
+    {
     }
     protected override void LoadComponents()
     {
@@ -32,16 +37,16 @@ public class CaslteManager : MinhMonoBehaviour
 
     public bool DeductCaslteHealth(int amount)
     {
-        if (castleData.currentHP >= amount)
-        {
-            castleData.currentHP -= amount;
-            Debug.Log("Deduct: " + amount + " → remain: " + castleData.currentHP);
-            return true;
-        }
-        else
+        castleData.currentHP -= amount;
+        Debug.Log("Deduct: " + amount + " → remain: " + castleData.currentHP);
+
+        if (castleData.currentHP <= 0)
         {
             Debug.Log("Defeat!");
+            SceneManager.LoadScene("GameOver");
             return false;
         }
+
+        return true;
     }
 }

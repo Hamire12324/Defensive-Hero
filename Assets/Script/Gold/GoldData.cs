@@ -3,5 +3,10 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "GoldData", menuName = "Game/Gold")]
 public class GoldData : ScriptableObject
 {
-    public int gold;
+    public int goldBase;
+    public int goldCurrent;
+    public void Reset()
+    {
+        goldCurrent = goldBase;
+    }
 }

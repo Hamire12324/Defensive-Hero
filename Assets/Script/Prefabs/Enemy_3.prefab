@@ -168,8 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af5b27881db8fd45a44de96c9a516d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  silenceRadius: 10
-  disableDuration: 3
+  silenceRadius: 5
+  disableDuration: 1
 --- !u!1 &3230919908928180431
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,8 +263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f66b243e972c0a4c91b49abeb88ba38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHp: 10000
-  hpMax: 10000
+  currentHp: 3000
+  hpMax: 3000
   isDead: 0
   objectCtrl: {fileID: 1586787439669796654}
   enemyCtrl: {fileID: 0}
@@ -432,7 +432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints: []
-  originalSpeed: 2
-  currentSpeed: 2
+  originalSpeed: 0.5
+  currentSpeed: 0.5
   enemyCtrl: {fileID: 1586787439669796654}
   objectCtrl: {fileID: 1586787439669796654}
