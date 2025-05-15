@@ -22,21 +22,26 @@ public class EnemySpawner : Spawner
     public IEnumerator SpawnEnemiesInWave(WaveConfigSO waveConfig)
     {
         List<GameObject> enemies = waveConfig.EnemyPrefabs;
-        List<Transform> waypoints = waveConfig.GetWaypoints();
+
+        List<Transform> waypoints = new List<Transform>(waveConfig.GetWaypoints());
 
         foreach (GameObject enemyPrefab in enemies)
         {
             Transform enemyTransform = Spawn(enemyPrefab.transform, waypoints[0].position, Quaternion.identity);
             GameObject newEnemy = enemyTransform.gameObject;
             newEnemy.SetActive(true);
+
             PathFinder pathFinder = newEnemy.GetComponentInChildren<PathFinder>();
             if (pathFinder != null)
             {
-                pathFinder.SetPath(waypoints);
+                List<Transform> enemyWaypoints = new List<Transform>(waypoints);
+                pathFinder.SetPath(enemyWaypoints);
             }
+
             yield return new WaitForSeconds(waveConfig.TimeBetweenEnemySpawns);
         }
     }
+
     protected virtual void AddHPBar2Obj(Transform newEnemy)
     {
         if (newEnemy == null)

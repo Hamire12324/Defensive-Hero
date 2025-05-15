@@ -1,20 +1,25 @@
 using UnityEngine;
 using System.Collections.Generic;
+
 public class PathFinder : MinhMonoBehaviour
 {
     [SerializeField] private List<Transform> waypoints;
     [SerializeField] public float originalSpeed = 2;
     [SerializeField] public float currentSpeed = 2;
+
     private int currentWayPointIndex = 0;
+
     private void Update()
     {
         MoveAlongPath();
     }
+
     protected override void OnEnable()
     {
         base.OnEnable();
         ResetPath();
     }
+
     protected virtual void MoveAlongPath()
     {
         if (waypoints == null || currentWayPointIndex >= waypoints.Count) return;
@@ -38,22 +43,36 @@ public class PathFinder : MinhMonoBehaviour
             }
         }
     }
+
     protected virtual void ResetPath()
     {
         if (waypoints == null || waypoints.Count == 0) return;
 
         currentWayPointIndex = 0;
-        transform.parent.position = waypoints[0].position;
+
+        Transform parentTransform = transform.parent;
+        if (parentTransform != null)
+        {
+            parentTransform.position = waypoints[0].position;
+        }
     }
+
     public virtual void SetPath(List<Transform> newWaypoints)
     {
-        waypoints = newWaypoints;
-        transform.position = waypoints[0].position;
+        waypoints = new List<Transform>(newWaypoints);
+
+        Transform parentTransform = transform.parent;
+        if (parentTransform != null && waypoints.Count > 0)
+        {
+            parentTransform.position = waypoints[0].position;
+        }
     }
+
     public virtual void SetMoveSpeed(float speed)
     {
         this.currentSpeed = speed;
     }
+
     protected virtual void Despawn()
     {
         Destroy(gameObject);
